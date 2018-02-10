@@ -243,20 +243,23 @@ input[type=submit] {
         max-width: 420px;
     }
     .portfoliostuff {
-        width: %;
+        width: 100%;
     }
     .kilotango {
         width: 100%;
+        height: auto;
         margin-bottom: 10px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .mainsection {
+    .maincontainer {
         width: 100%;
     }
     .sidebar {
-        width: 100%;
+        width: 100%; 
+        float: left;
+        margin-bottom: 40px;
     }
     #maincontainer {
         overflow: auto;
@@ -265,9 +268,6 @@ input[type=submit] {
     .portfoliostuff {
         width: 100%;
         margin-bottom: 20px;
-    }
-    .kilotango {
-        width: 100%;
     }
 }
 
@@ -291,7 +291,6 @@ input[type=submit] {
     }
     .sidebar {
         width: 100%;
-        float: left;
     }
     .mainsection {
         margin-top: 60px;
